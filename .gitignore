@@ -62,3 +62,6 @@ Thumbs.db
 
 # Local deployment files
 .python-version
+
+# Allow safe example environment files
+!**/.env.example
