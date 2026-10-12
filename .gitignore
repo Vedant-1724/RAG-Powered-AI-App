@@ -1,0 +1,64 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.Python
+venv/
+.venv/
+ENV/
+env/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Generated data and vector databases
+backend/data/
+backend/storage/
+*.sqlite
+*.sqlite3
+*.db
+chroma/
+chroma_db/
+vector_store/
+
+# Uploaded documents
+uploads/
+uploaded_documents/
+*.pdf
+*.docx
+
+# Node.js and Next.js
+node_modules/
+.next/
+out/
+build/
+dist/
+.vercel/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local deployment files
+.python-version
